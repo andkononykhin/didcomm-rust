@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - stable
+      - issue-46-js-release
   workflow_dispatch:
     inputs:
       devN:

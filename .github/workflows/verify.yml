@@ -83,6 +83,7 @@ jobs:
         shell: bash
 
   verify:
+    if: false
     strategy:
       matrix:
         os: [ macos-latest, windows-latest, ubuntu-latest ]
@@ -205,6 +206,7 @@ jobs:
         shell: bash
 
   verify-uniffi:
+    if: false
     strategy:
       matrix:
         os: [ macos-latest, windows-latest, ubuntu-latest ]
